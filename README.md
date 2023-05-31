@@ -10,8 +10,8 @@
 
 ## Table of contents
 * [Setup](#setup)
-* [Information about the files in this repo](#Files info)
-* [Instructions for Running Python Notebook](#Execution instruction)
+* [Information about the files in this repo](#Information about the files in this repo)
+* [Instructions for Running Python Notebook](#Instructions for Running Python Notebook)
 
 
 
