@@ -9,6 +9,7 @@
 * [Setup](#setup)
 * [Files info](#files-ino)
 * [Execution info](#execution-info)
+* [Sample output](#sample-output)
 
 ### General info
 `This repository contains the files used for the assignment 5 of the ERA course. The objective of this assignment is to modularize the code and store in GitHub`
@@ -23,12 +24,12 @@ The below requirements needs to be installed before running the code
 * `torchsummary`
 
 ### Files info
-There are three files iin this repository. The names of these files are below
+There are three files in this repository. The names of these files are 
 * `model.py`
 * `utils.py`
 * `S5.ipynb`
 
-The `model.py` file contains the convolution neural network model designed in a specific architecture. It contains a class called Net which has the required code for runnig the convolution neural network model.
+The `model.py` file contains the CNN model designed in a specific architecture. It contains a class called `Net` which has the required code for runnig the CNN model.
 
 The `utils.py` file contains all the utility functions. there are four classes in this file
 
@@ -37,9 +38,9 @@ The `utils.py` file contains all the utility functions. there are four classes i
  3. `create_accuracy_loss_plot`
  4. `generate_model_parameters`
  
- * The `download_data` class download the data and create the dataloader
+ * The `download_data` class download the train and test data `(MNIST)` and create the train dataloader and test dataloader
  
- * The  `create_plot` class create the plots for the images and labels
+ * The  `create_plot` class create the plots for the images and labels of the train data in a `(3x4)` grid
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
 
@@ -47,7 +48,7 @@ The `utils.py` file contains all the utility functions. there are four classes i
 
 The `S5.ipynb` is a ipython notebook contains all the code to run and validate the model, create plots etc.
 
- * We need to import the classed defined in the `utils.py` as below
+ * We need to import the classed defined in the `utils.py` and `model.py` as below
 
 `from utils import download_data,create_plot,create_accuracy_loss_plot,generate_model_parameters`
 
@@ -63,6 +64,8 @@ The repository can be cloned using the below git command
 The uesr needs to change the directoty with the below code before importing the functionalities from `model.py` and `utils.py`
 
 `%cd /content/gdrive/My\Drive/Assignment_5` 
+
+
 
 
 
