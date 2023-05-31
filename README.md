@@ -9,9 +9,10 @@
 * `torchsummary`
 
 ## Table of contents
+* [General info](#general-info)
 * [Setup](#setup)
-* [Information about the files in this repo](#Information about the files in this repo)
-* [Instructions for Running Python Notebook](#Instructions for Running Python Notebook)
+* [Files info](#files-ino)
+* [Instructions for execution](#execution info)
 
 
 
