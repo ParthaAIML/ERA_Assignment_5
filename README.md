@@ -43,6 +43,7 @@ The `S5.ipynb` is a ipython notebook contains all the code the run and validate 
  * We need to import the classed defined in the `utils.py` as below
  
  `from utils import download_data,create_plot,create_accuracy_loss_plot,generate_model_parameters`
+ 
  `from model import Net`
 
 
