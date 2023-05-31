@@ -43,7 +43,7 @@ The `utils.py` file contains all the utility functions. there are four classes i
 
  * The `generate_model_parameters` prints the model architecture and the total parameters in each layer
 
-The `S5.ipynb` is a ipython notebook contains all the code the run and validate the model
+The `S5.ipynb` is a ipython notebook contains all the code to run and validate the model, create plots etc.
 
  * We need to import the classed defined in the `utils.py` as below
 
@@ -51,7 +51,9 @@ The `S5.ipynb` is a ipython notebook contains all the code the run and validate 
 
 `from model import Net`
 
-
+## Execution info
+Depending on the preference, the model can be run in google colab or in local system.The S5.ipynb notebook has all the code required to run the model
+First of all the the repository can be loned
 
 
 
