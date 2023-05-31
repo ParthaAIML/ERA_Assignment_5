@@ -72,9 +72,9 @@ The uesr needs to change the directoty with the below code before importing the 
 ![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/92c8e7ea-4bdd-404d-adf7-53dc589c88c7)
 
 
+* Model Summary
 
-
-
+![model_params](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/496e096d-7e42-4000-b74d-251f6f25399e)
 
 
 
