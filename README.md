@@ -26,16 +26,17 @@ There are three files iin this repository. The names of these files are below
 
 The `model.py` file contains the convnet model designen in a architecture
 
-The `utils.py` file contains all the utility classes. there are for classes in this file they are 
+The `utils.py` file contains all the utility functions. there are for classes in this file they are 
 
  1. `download_data`
  2. `create_plot`
  3. `create_accuracy_loss_plot`
  4. `generate_model_parameters`
-  * The `download_data` class download the data and create the dataloader
-  * The  `create_plot` class create the plots for the images and labels
-  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
-  * The `generate_model_parameters` prints the model arcgitecture and the total parameters in each layer
+ 
+ ...* The `download_data` class download the data and create the dataloader
+ ...* The  `create_plot` class create the plots for the images and labels
+ ...* The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
+ ...* The `generate_model_parameters` prints the model arcgitecture and the total parameters in each layer
 
 
 
