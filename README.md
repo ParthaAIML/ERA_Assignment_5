@@ -39,7 +39,10 @@ The `utils.py` file contains all the utility functions. there are for classes in
 ![image_labels](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/f0598e43-69e7-4f7b-b93b-65551382b0cd)
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
+![accuracy_loss_plot](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/1ca3717b-21c6-4de6-8bc6-6bf468ad781f)
+
  * The `generate_model_parameters` prints the model architecture and the total parameters in each layer
+![model_info](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/4212125e-7d56-4cd3-bb0a-85dc8f4ceb5e)
 
 The `S5.ipynb` is a ipython notebook contains all the code the run and validate the model
 
