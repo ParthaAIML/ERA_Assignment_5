@@ -39,7 +39,9 @@ The `utils.py` file contains all the utility functions. there are for classes in
  * The `generate_model_parameters` prints the model architecture and the total parameters in each layer
 
 The `S5.ipynb` is a ipython notebook contains all the code the run and validate the model
+
  * We need to import the classed defined in the `utils.py` as below
+ 
  `from utils import download_data,create_plot,create_accuracy_loss_plot,generate_model_parameters`
  `from model import Net`
 
