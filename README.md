@@ -5,6 +5,7 @@
 ---
 
 ## Table of contents
+---
 * [General info](#general-info)
 * [Setup](#setup)
 * [Files info](#files-ino)
@@ -12,9 +13,11 @@
 * [Sample output](#sample-output)
 
 ### General info
+---
 `This repository contains the files used for the assignment 5 of the ERA course. The objective of this assignment is to modularize the code and store in GitHub`
 
 ### Setup
+---
 The below requirements needs to be installed before running the code
 
 #### Requirements
@@ -24,6 +27,7 @@ The below requirements needs to be installed before running the code
 * `torchsummary`
 
 ### Files info
+---
 There are three files in this repository. The names of these files are 
 * `model.py`
 * `utils.py`
@@ -55,6 +59,7 @@ The `S5.ipynb` is a ipython notebook contains all the code to run and validate t
 `from model import Net`
 
 ### Execution info
+---
 Depending on the preference, the model can be run in google colab or in local system.The `S5.ipynb` notebook has all the code required to run the model
 
 The repository can be cloned using the below git command
@@ -66,6 +71,7 @@ The uesr needs to change the directoty with the below code before importing the 
 `%cd /content/gdrive/My\Drive/Assignment_5` 
 
 ### Sample output
+---
 
 * Plot of image and labels
 
