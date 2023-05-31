@@ -24,9 +24,9 @@ There are three files iin this repository. The names of these files are below
 * `utils.py`
 * `S5.ipynb`
 
-The `model.py` file contains the convnet model designen in a architecture. It contains a class called Net
+The `model.py` file contains the convolution neural network model designed in a specific architecture. It contains a class called Net which has the required code for runnig the convolution neural network model.
 
-The `utils.py` file contains all the utility functions. there are for classes in this file they are 
+The `utils.py` file contains all the utility functions. there are four classes in this file
 
  1. `download_data`
  2. `create_plot`
@@ -34,8 +34,9 @@ The `utils.py` file contains all the utility functions. there are for classes in
  4. `generate_model_parameters`
  
  * The `download_data` class download the data and create the dataloader
+ 
  * The  `create_plot` class create the plots for the images and labels
-![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/90aec8fa-e9f6-45a8-88e9-849330d2ac0e)
+![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/ae78c411-048c-44f9-a38c-1563f791813b)
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
 ![accuracy_loss](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/c6f8f9cf-6c1a-4de9-a2e3-8a5473c282b3)
