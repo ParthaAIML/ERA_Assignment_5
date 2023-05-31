@@ -35,7 +35,7 @@ The `utils.py` file contains all the utility functions. there are for classes in
  
  * The `download_data` class download the data and create the dataloader
  * The  `create_plot` class create the plots for the images and labels
-![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/46d7dc07-a774-496a-953e-d9812d76048c)
+![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/90aec8fa-e9f6-45a8-88e9-849330d2ac0e)
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
 ![accuracy_loss](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/c6f8f9cf-6c1a-4de9-a2e3-8a5473c282b3)
