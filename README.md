@@ -35,22 +35,18 @@ The `utils.py` file contains all the utility functions. there are for classes in
  
  * The `download_data` class download the data and create the dataloader
  * The  `create_plot` class create the plots for the images and labels
-
-![image_labels](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/f0598e43-69e7-4f7b-b93b-65551382b0cd)
+![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/46d7dc07-a774-496a-953e-d9812d76048c)
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
-![accuracy_loss_plot](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/1ca3717b-21c6-4de6-8bc6-6bf468ad781f)
+![accuracy_loss](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/c6f8f9cf-6c1a-4de9-a2e3-8a5473c282b3)
 
  * The `generate_model_parameters` prints the model architecture and the total parameters in each layer
-![model_info](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/4212125e-7d56-4cd3-bb0a-85dc8f4ceb5e)
+![model_params](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/c5358d61-8f7d-418b-8b8f-59ff8f3b3c8f)
 
 The `S5.ipynb` is a ipython notebook contains all the code the run and validate the model
 
  * We need to import the classed defined in the `utils.py` as below
- 
- `from utils import download_data,create_plot,create_accuracy_loss_plot,generate_model_parameters`
- 
- `from model import Net`
+![import modules](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/ea067bc5-9520-4896-8974-20612e83f3b5)
 
 
 
