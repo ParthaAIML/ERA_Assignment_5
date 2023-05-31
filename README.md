@@ -23,8 +23,11 @@ There are three files iin this repository. The names of these files are below
 * `model.py`
 * `utils.py`
 * `S5.ipynb`
+
 The `model.py` file contains the convnet model designen in a architecture
+
 The `utils.py` file contains all the utility classes. there are for classes in this file they are 
+
  1. `download_data`
  2. `create_plot`
  3. `create_accuracy_loss_plot`
