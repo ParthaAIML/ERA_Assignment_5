@@ -68,7 +68,8 @@ The uesr needs to change the directoty with the below code before importing the 
 ### Sample output
 
 * Plot of image and labels
-![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/92c8e7ea-4bdd-404d-adf7-53dc589c88c7){:height="100px" width="100px"}.
+
+![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/92c8e7ea-4bdd-404d-adf7-53dc589c88c7) {:height="50px" width="50px"}
 
 
 
