@@ -14,7 +14,7 @@
 
 ### General info
 ---
-`This repository contains the files used for the assignment 5 of the ERA course. The objective of this assignment is to modularize the code and store in GitHub`
+`This repository contains the files used for the assignment 5 of the ERA course. Here we have build a CNN model to predict the hand written digits `[0-9]` using `MNIST` data availabe with torchvision library. The objective of this assignment is to modularize the code and store in GitHub`
 
 ### Setup
 ---
