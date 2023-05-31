@@ -24,7 +24,7 @@ There are three files iin this repository. The names of these files are below
 * `utils.py`
 * `S5.ipynb`
 
-The `model.py` file contains the convnet model designen in a architecture
+The `model.py` file contains the convnet model designen in a architecture. It contains a class called Net
 
 The `utils.py` file contains all the utility functions. there are for classes in this file they are 
 
@@ -33,10 +33,15 @@ The `utils.py` file contains all the utility functions. there are for classes in
  3. `create_accuracy_loss_plot`
  4. `generate_model_parameters`
  
- ... * The `download_data` class download the data and create the dataloader
- ... * The  `create_plot` class create the plots for the images and labels
- ... * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
- ... * The `generate_model_parameters` prints the model arcgitecture and the total parameters in each layer
+ * The `download_data` class download the data and create the dataloader
+ * The  `create_plot` class create the plots for the images and labels
+ * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
+ * The `generate_model_parameters` prints the model architecture and the total parameters in each layer
+
+The `S5.ipynb` is a ipython notebook contains all the code the run and validate the model
+ * We need to import the classed defined in the `utils.py` as below
+ `from utils import download_data,create_plot,create_accuracy_loss_plot,generate_model_parameters`
+ `from model import Net`
 
 
 
