@@ -42,9 +42,10 @@ The `utils.py` file contains all the utility functions. there are four classes i
  3. `create_accuracy_loss_plot`
  4. `generate_model_parameters`
  
- * The `download_data` class download the train and test data `(MNIST)` and create the train dataloader and test dataloader
-    The `download_data` class takes a dictionary as input, this dictionary contains the below parameters which needs to be specified by the user
-    `{'batch_size': 512, 'shuffle': True, 'num_workers': 2, 'pin_memory': True}`
+ * The `download_data` class download the train and test data `(MNIST)` and create the train dataloader and test dataloader.
+ 
+   The `download_data` class takes a dictionary as input, this dictionary contains the below parameters which needs to be specified by the user
+   `{'batch_size': 512, 'shuffle': True, 'num_workers': 2, 'pin_memory': True}`
  
  * The  `create_plot` class create the plots for the images and labels of the train data in a `(3x4)` grid
 
