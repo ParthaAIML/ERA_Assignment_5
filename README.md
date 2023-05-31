@@ -3,10 +3,10 @@ This repository contains the files used for the assignment 5 of the ERA course. 
 ---
 **Requirements**
 ---
-..* torch
-..* torchvision
-..* matplotlib
-..* torchsummary
+* torch
+* torchvision
+* matplotlib
+* torchsummary
 
 
 
