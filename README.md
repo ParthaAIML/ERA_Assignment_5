@@ -33,10 +33,10 @@ The `utils.py` file contains all the utility functions. there are for classes in
  3. `create_accuracy_loss_plot`
  4. `generate_model_parameters`
  
- ...* The `download_data` class download the data and create the dataloader
- ...* The  `create_plot` class create the plots for the images and labels
- ...* The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
- ...* The `generate_model_parameters` prints the model arcgitecture and the total parameters in each layer
+ ... * The `download_data` class download the data and create the dataloader
+ ... * The  `create_plot` class create the plots for the images and labels
+ ... * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
+ ... * The `generate_model_parameters` prints the model arcgitecture and the total parameters in each layer
 
 
 
