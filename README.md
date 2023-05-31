@@ -8,6 +8,12 @@ This repository contains the files used for the assignment 5 of the ERA course. 
 * `matplotlib`
 * `torchsummary`
 
+## Table of contents
+* [Setup](#setup)
+* [Information about the files in this repo](#Files info)
+* [Instructions for Running Python Notebook (S5)](#Execution instruction)
+
+
 
 
 
