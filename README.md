@@ -1,6 +1,7 @@
 
 # ERA Assignment 5
-![era_v1](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/9299254f-6c29-4cca-8243-e618c7eef760)
+
+![era](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/71a005f6-ce58-42c9-96f8-4d0954db54bd)
 ---
 
 ## Table of contents
@@ -9,18 +10,19 @@
 * [Files info](#files-ino)
 * [Execution info](#execution-info)
 
-## General info
+### General info
 `This repository contains the files used for the assignment 5 of the ERA course. The objective of this assignment is to modularize the code and store in GitHub`
 
-## Setup
+### Setup
 The below requirements needs to be installed before running the code
-### Requirements
+
+#### Requirements
 * `torch`
 * `torchvision`
 * `matplotlib`
 * `torchsummary`
 
-## Files info
+### Files info
 There are three files iin this repository. The names of these files are below
 * `model.py`
 * `utils.py`
@@ -51,9 +53,19 @@ The `S5.ipynb` is a ipython notebook contains all the code to run and validate t
 
 `from model import Net`
 
-## Execution info
-Depending on the preference, the model can be run in google colab or in local system.The S5.ipynb notebook has all the code required to run the model
-First of all the the repository can be loned
+### Execution info
+Depending on the preference, the model can be run in google colab or in local system.The `S5.ipynb` notebook has all the code required to run the model
+
+The repository can be cloned using the below git command
+
+`git clone https://github.com/ParthaAIML/ERA_Assignment_5`
+
+The uesr needs to change the directoty with the below code before importing the functionalities from `model.py` and `utils.py`
+
+`%cd /content/gdrive/My\Drive/Assignment_5` 
+
+
+
 
 
 
