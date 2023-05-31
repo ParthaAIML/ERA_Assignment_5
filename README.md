@@ -1,6 +1,6 @@
 
 # ERA_Assignment_5
-#![era](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/5420456b-9bcc-426d-a380-aac9f9c179ce)
+![era](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/5420456b-9bcc-426d-a380-aac9f9c179ce)
 
 ---
 
