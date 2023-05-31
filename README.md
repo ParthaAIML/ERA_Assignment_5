@@ -12,7 +12,7 @@
 * [General info](#general-info)
 * [Setup](#setup)
 * [Files info](#files-ino)
-* [Instructions for execution](#execution info)
+* [Execution info](#execution-info)
 
 
 
