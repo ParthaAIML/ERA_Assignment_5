@@ -36,7 +36,7 @@ There are three files in this repository. The names of these files are
 
 The `model.py` file contains the CNN model designed in a specific architecture. It contains a class called `Net` which has the required code for runnig the CNN model.
 
-The `utils.py` file contains all the utility functions. there are four classes in this file
+The `utils.py` file contains all the utility functions. there are six utility functions in this file
 
  1. `GetCorrectPredCount`
  2. `train`
@@ -45,13 +45,13 @@ The `utils.py` file contains all the utility functions. there are four classes i
  5. `create_accuracy_loss_plot`
  6. `generate_model_parameters`
  
- * The `GetCorrectPredCount` function counts the correct predictions.
+ * The `GetCorrectPredCount` function counts the correct predictions by the model.
  
  * The  `train` function trains the model
  
  * The  `test` function test the model performance
 
- * The  `download_data` functionwill download the MNIST train and test data, we need to specify the train and test transformation in the function 
+ * The  `download_data` function will download the MNIST train and test data, we need to specify the train and test transformation in the function.
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
 
@@ -61,10 +61,11 @@ The `S5.ipynb` is a ipython notebook contains all the code to run and validate t
 
  * We need to import the functions defined in the `utils.py` and `model.py` as below
 
-  `from utils import GetCorrectPredCount,train,test,create_accuracy_loss_plot,generate_model_parameters`
+  `from utils import GetCorrectPredCount,train,test,download_data,create_accuracy_loss_plot,generate_model_parameters`
 
   `from model import Net`
   
+  The user needs to run all the cells of the S5.ipynb notebook to get the complete output
 
 ### Execution info
 ---
