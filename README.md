@@ -81,11 +81,11 @@ The uesr needs to change the directoty with the below code before importing the 
 
 ### Sample output
 ---
-* Accuracy and Loss Plots
+*  **Accuracy and Loss Plots**
 
 ![accuracy_loss](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/f8330383-97db-438d-ae74-fb9431c1bfdb)
 
-* Model Summary
+*  **Model Summary**
 
 ![model_params](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/496e096d-7e42-4000-b74d-251f6f25399e)
 
