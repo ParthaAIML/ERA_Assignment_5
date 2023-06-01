@@ -61,7 +61,7 @@ The `S5.ipynb` is a ipython notebook contains all the code to run and validate t
 
  * We need to import the functions defined in the `utils.py` and `model.py` as below
 
-  `from utils import GetCorrectPredCount,train,test,download_data,create_accuracy_loss_plot,generate_model_parameters`
+  `from utils import  GetCorrectPredCount,train,test,download_data,create_accuracy_loss_plot,generate_model_parameters`
 
   `from model import Net`
   
