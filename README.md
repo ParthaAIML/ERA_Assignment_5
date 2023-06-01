@@ -30,9 +30,9 @@ The below requirements needs to be installed before running the code
 ### Files info
 ---
 There are three files in this repository. The names of these files are 
-* `model.py`
-* `utils.py`
-* `S5.ipynb`
+*  **`model.py`**
+*  **`utils.py`**
+*  **`S5.ipynb`**
 
 The **`model.py`** file contains the CNN model designed in a specific architecture. It contains a class called `Net` which has the required code for runnig the CNN model.
 
