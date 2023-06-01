@@ -34,9 +34,9 @@ There are three files in this repository. The names of these files are
 * `utils.py`
 * `S5.ipynb`
 
-The `model.py` file contains the CNN model designed in a specific architecture. It contains a class called `Net` which has the required code for runnig the CNN model.
+The **`model.py`** file contains the CNN model designed in a specific architecture. It contains a class called `Net` which has the required code for runnig the CNN model.
 
-The `utils.py` file contains all the utility functions. there are six utility functions in this file
+The **`utils.py`** file contains all the utility functions. there are six utility functions in this file
 
  1. `GetCorrectPredCount`
  2. `train`
@@ -57,7 +57,7 @@ The `utils.py` file contains all the utility functions. there are six utility fu
 
  * The `generate_model_parameters` prints the model architecture and the total parameters in each layer
 
-The `S5.ipynb` is a ipython notebook contains all the code to run and validate the model, create plots etc.
+The **`S5.ipynb`** is a ipython notebook contains all the code to run and validate the model, create plots etc.
 
  * We need to import the functions defined in the `utils.py` and `model.py` as below
 
