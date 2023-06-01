@@ -38,17 +38,20 @@ The `model.py` file contains the CNN model designed in a specific architecture. 
 
 The `utils.py` file contains all the utility functions. there are four classes in this file
 
- 1. `download_data`
- 2. `create_plot`
- 3. `create_accuracy_loss_plot`
- 4. `generate_model_parameters`
+ 1. `GetCorrectPredCount`
+ 2. `train`
+ 3. `test`
+ 4. `download_data`
+ 5. `create_accuracy_loss_plot`
+ 6. `generate_model_parameters`
  
- * The `download_data` class download the train and test data `(MNIST)` and create the train dataloader and test dataloader.
+ * The `GetCorrectPredCount` function counts the correct predictions.
  
-   The `download_data` class takes a dictionary as input, this dictionary contains the below parameters which needs to be specified by the user
-   `{'batch_size': 512, 'shuffle': True, 'num_workers': 2, 'pin_memory': True}`
+ * The  `train` function trains the model
  
- * The  `create_plot` class create the plots for the images and labels of the train data in a `(3x4)` grid
+ * The  `test` function test the model performance
+
+ * The  `download_data` functionwill download the MNIST train and test data, we need to specify the train and test transformation in the function 
 
  * The `create_accuracy_loss_plot` create the accuracy and loss plot for tarining and testing
 
@@ -56,9 +59,9 @@ The `utils.py` file contains all the utility functions. there are four classes i
 
 The `S5.ipynb` is a ipython notebook contains all the code to run and validate the model, create plots etc.
 
- * We need to import the classed defined in the `utils.py` and `model.py` as below
+ * We need to import the functions defined in the `utils.py` and `model.py` as below
 
-  `from utils import download_data,create_plot,create_accuracy_loss_plot,generate_model_parameters`
+  `from utils import GetCorrectPredCount,train,test,create_accuracy_loss_plot,generate_model_parameters`
 
   `from model import Net`
   
@@ -77,11 +80,9 @@ The uesr needs to change the directoty with the below code before importing the 
 
 ### Sample output
 ---
+* Accuracy and Loss Plots
 
-* Plot of image and labels
-
-![image](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/92c8e7ea-4bdd-404d-adf7-53dc589c88c7)
-
+![accuracy_loss](https://github.com/ParthaAIML/ERA_Assignment_5/assets/100613266/f8330383-97db-438d-ae74-fb9431c1bfdb)
 
 * Model Summary
 
